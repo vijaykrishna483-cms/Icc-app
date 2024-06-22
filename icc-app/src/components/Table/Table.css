@@ -1,0 +1,49 @@
+
+main{
+  display: grid;
+  grid-template-columns:60px 90px 60px 60px 60px ;
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 330px;
+  margin-left: 70%;
+  margin-top:4%;
+  
+   
+  
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80px;
+    margin-bottom: 10px;
+}
+.INDrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 72px;
+    
+}
+.AFGIMG{
+    width: 40px;
+    height: 20px;
+
+}
+.rowq{
+    margin-bottom: 10px;
+}
+
+.head{
+    background-color: #ff0088;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.one{
+    color: #001861;
+    font-weight: bold;
+    font: 12px;
+}
