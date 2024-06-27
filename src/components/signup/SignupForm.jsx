@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Signupform.css'
+import { Link } from 'react-router-dom';
 
 const SignupForm = () => {
   const [email, setEmail] = useState('');
@@ -56,8 +57,12 @@ const SignupForm = () => {
           />
         </div>
         {error && <p style={{ color: 'red' }}>{error}</p>}
+
+        <Link to="/iccapp">
+        <button>SignUp</button>
+      </Link>
        
-        <a href='/iccappp' className='button'>SignUp</a>
+      
       </form>
     </div>
   );
