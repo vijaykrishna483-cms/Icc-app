@@ -1,17 +1,23 @@
 import React from 'react'
-import Navbar from './components/Navbar/Navbar'
-import Footer from './components/Footer/Footer'
-import Highlights from './components/Highlights/Highlights'
-import Table from './components/Table/Table'
+import Main from './components/Main'
+import Home from './components/Home/Home'
+import LoginForm from './components/login/LoginForm';
+import SignupForm from './components/signup/SignupForm';
+import { BrowserRouter , Routes, Route  } from 'react-router-dom';
 
 const App = () => {
   return (
-    <div className='Body'>
-      <Navbar/>
-      <Table/>
-      <Highlights/>
-      <Footer/>
+    <div >
+    <BrowserRouter>
+    <Routes>
+     <Route index element={<Home/>}/> 
+     <Route path="/login" element={<LoginForm/>}/> 
+     <Route path="/signin" element={<SignupForm/>}/> 
+     <Route path="/iccapp" element={<Main/>}/> 
+    </Routes>
+    </BrowserRouter>
     </div>
+     
   )
 }
 

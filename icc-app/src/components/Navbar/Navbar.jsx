@@ -72,10 +72,10 @@ const Navbar = () => {
      
      <a href="/">SEARCH</a>
      </div>
-     <div className='signin'>
+     <div className='signinn'>
       <div className='icon'><FontAwesomeIcon icon={faUser} /></div>
      
-     <a href="/">SIGN IN</a>
+     <a href="/" className='Signbtn'>SIGN IN</a>
      </div>
     </header>
   )

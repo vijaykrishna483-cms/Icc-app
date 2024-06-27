@@ -1,0 +1,40 @@
+.firstbox {
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    margin-left:50px;
+   
+   }
+   p{
+       margin-top: 0;
+   }
+   
+   h2{
+       margin-top: 0;
+       font-size:15px;
+   }
+   .first{
+      width: 305px;
+   }
+   
+   .Fullset{
+       display: flex;
+       flex-direction: row;
+       overflow-x: auto;
+   }
+   .Fullset::-webkit-scrollbar{
+       width: 0;
+   }
+   .Main{
+       display: flex;
+       flex-direction: column;
+   }
+   
+   h1{
+       margin-left: 60px;
+       color: #00175f;
+   }
+   
+   .last{
+       margin-left: 30%;
+   }
