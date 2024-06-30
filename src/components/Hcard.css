@@ -1,0 +1,56 @@
+.cards-container {
+    display: flex;
+     flex-direction: row;
+  
+    align-items: center;
+    
+    overflow-y: auto;
+  }
+  .cards-container::-webkit-scrollbar{
+    width: 0;
+}
+  .cardss {
+    display: flex;
+    flex-direction: column;
+    width:305px;
+    margin-left:60px;
+    height: 400px;
+  }
+  
+ .Imgcrd{
+  width: 305px;
+  height: 184px;
+ }
+ p{
+  margin-top: 0;
+}
+
+h2{
+  margin-top: 0;
+  font-size:15px;
+  color: blue;
+}
+h1{
+  margin-left: 60px;
+  color: #00175f;
+}
+
+.inputsearch{
+  margin-left:60px;
+  height:45px;
+  width: 400px;
+  
+}
+
+.bars{
+  margin-left: 60px;
+  display:flex;
+  justify-content: space-between;
+  
+}
+
+.srch,.fltr{
+  background-color: #ffffff;
+  border:1px solid black;
+  height: 30px;
+}

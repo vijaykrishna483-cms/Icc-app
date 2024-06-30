@@ -6,6 +6,9 @@ const Highlights = () => {
 
    <div className='Main'>
     <div>
+      <input/>
+    </div>
+    <div>
         <h1>
          MATCH HIGHLIGHTS
         </h1>

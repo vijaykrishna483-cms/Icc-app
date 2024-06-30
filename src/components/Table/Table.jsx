@@ -4,8 +4,8 @@ const Table = () => {
   return (
   
   
-    
-    <main>
+    <div className='Tablebody'>
+       <main>
       
       <div className='colmone'>  <div className='head'>POS </div>
         <div className='rowq'>1</div>
@@ -41,6 +41,8 @@ const Table = () => {
       </div>
     </main>
  
+    </div>
+   
     
     
  

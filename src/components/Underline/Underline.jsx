@@ -4,6 +4,7 @@ import './Underline.css'
 import  Player from '../Playerofthematch/Player.jsx'
 import Stories from '../Stories/Stories.jsx'
 import Card from '../Card/Card.jsx'
+import HighlightCards from '../Highlightscard.jsx';
 
 
 const Navbar = () => {
@@ -22,7 +23,7 @@ const Navbar = () => {
 
   const divContent = {
     'TOP STORIES': <div ><Stories/></div>,
-    'MATCH HIGHLIGHTS': <div ><Highlights/></div>,
+    'MATCH HIGHLIGHTS': <div ><HighlightCards/></div>,
     'PLAYER-HIGHLIGHTS': <div className='playerhighlights'><Player/></div>,
     'EXTENDED HIGHLIGHTS': <div >  <h1>EXTENDED HIGHLIGHTS</h1>
       <div className='cardrow'>
